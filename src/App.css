@@ -1,0 +1,33 @@
+
+
+.drum-flex-container {
+  margin: 0 auto;
+  display:flex;
+  width: 450px;
+  height: 450px;
+  background-color: #eee;
+  align-content: center;
+  flex-flow: wrap;
+  border: 1px solid black;
+}
+.drum-pad {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em;
+}
+
+.pressed {
+  border: 2px solid black;
+}
+
+#display {
+  height: 50px;
+  text-align: left;
+  margin-left: 100px;
+}
